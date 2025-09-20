@@ -1,0 +1,41 @@
+Main Activity.java
+import android app.Activity;
+import android .os Bundle;
+import android .util.log;
+public class MainActivity{
+@override
+prodection void on Create(Bundle saved Instance state){
+super.onCreate(saved instance state){
+super context view(R.layout.activity-main);
+}
+@override 
+protected void on start(){
+super. on start();
+log.d("lifecycle","on start invoked");
+}
+@override
+protected void on Resume(){
+super. on Resume();
+log.d("lifecycle","on Resume invoked");
+}
+@override
+protected void on pause(){
+super. on pause();
+log.d("lifecycle","on pause invoked");
+}
+@override
+protected void on Stop(){
+super. on Stop();
+log.d("lifecycle","on Stop invoked");
+}
+@override
+protected void on Restart(){
+super. on Restart();
+log.d("lifecycle","on Restart invoked");
+}
+@override
+protected void on Destroy(){
+super. on Destroy();
+log.d("lifecycle","on Destroy invoked");
+}
+}
